@@ -7,7 +7,7 @@ describe("deleteFileAsync", () => {
   afterAll(() => {
     try {
       fs.unlinkSync(filePath);
-    } catch {}
+    } catch { }
   });
 
   test("deletes a file", async () => {

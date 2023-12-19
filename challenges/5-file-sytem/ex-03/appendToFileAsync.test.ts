@@ -8,12 +8,12 @@ describe("appendToFileAsync", () => {
   beforeEach(() => {
     try {
       fs.unlinkSync(filePath);
-    } catch {}
+    } catch { }
   });
   afterEach(() => {
     try {
       fs.unlinkSync(filePath);
-    } catch {}
+    } catch { }
   });
 
   test("appends to a file", async () => {
