@@ -1,11 +1,12 @@
 {
-  "name": "prairie",
+  "name": "typescript-challenges",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start-game": "ts-node challenges/4-classes/index.ts"
+    "start-game": "ts-node challenges/4-classes/index.ts",
+    "download-dataset": "curl -L https://www.data.gouv.fr/fr/datasets/r/8b6cd190-3b66-43a8-b609-ce130019069f > data.csv"
   },
   "author": "Hugo Arru",
   "license": "MIT",
